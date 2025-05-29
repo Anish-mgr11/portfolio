@@ -418,3 +418,105 @@ body {
   }
 
 }
+
+/*iphone 11*/
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  /* Header adjustments */
+  .header {
+    padding: 1rem 0.5rem;
+  }
+  
+  .nav-list {
+    gap: 0.8rem;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  
+  .nav-link {
+    font-size: 0.95rem;
+    padding: 0.3rem 0;
+    white-space: nowrap;
+  }
+  
+  /* Hero section complete overhaul */
+  .hero-section {
+    padding: 5.5rem 1rem 1.5rem;
+    position: relative;
+  }
+  
+  /* Profile image fixes */
+  .profile-container {
+   
+    margin: 0 auto 1rem;
+    width: 100%;
+  }
+  
+  .profile-image {
+     position: absolute;
+    top: 20px;
+    left: 15px;
+    z-index: 100;
+    width: 100px;
+    height: 100px;
+    border-width: 3px;
+    display: inline-block;
+  }
+  
+  /* Text content fixes */
+  .hero-section h1 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    margin: 0.5rem 0;
+    word-break: normal;
+  }
+  
+  .hero-section h2 {
+    font-size: 1.3rem;
+    margin: 0.3rem 0 0.8rem;
+  }
+  
+  .bio {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    max-width: 380px;
+    padding: 0 1rem;
+    margin: 0 auto 1.5rem;
+    text-align: center;
+  }
+  
+  /* Background image fixes */
+  .home-img {
+    height: 160px;
+    margin: 1rem auto 0;
+    background-size: contain;
+  }
+  
+  /* About section adjustments */
+  .about-section {
+    padding: 2rem 1rem;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+  
+  /* Social links adjustments */
+  .social-links {
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .social-link {
+    width: 42px;
+    height: 42px;
+    font-size: 1.2rem;
+  }
+  
+  /* Prevent text overflow */
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+  }
+}
