@@ -390,6 +390,9 @@ body {
   .bio {
     font-size: 0.9rem;
   }
+  .background-image{
+    right: 50px;
+  }
 }
 
 /* ========== Landscape Orientation ========== */
@@ -415,63 +418,3 @@ body {
   }
 
 }
-
-/**andro and ios**/
-@media (max-width: 600px) and (min-width: 401px) {
-  .nav-link {
-    font-size: 0.95rem;
-    padding: 0.4rem 0.8rem;
-  }
-
-  .profile-image {
-    width: 120px;
-    height: 120px;
-  }
-
-  .title {
-    font-size: 1.8rem;
-  }
-
-  .bio {
-    font-size: 1rem;
-  }
-}
-
-
-@media (max-width: 360px) {
-  .hero-section {
-    padding-top: 4rem;
-  }
-
-  .nav-link {
-    font-size: 0.8rem;
-  }
-
-  .profile-image {
-    width: 90px;
-    height: 90px;
-  }
-
-  .title {
-    font-size: 1.3rem;
-  }
-
-  .bio {
-    font-size: 0.85rem;
-  }
-
-  .social-link {
-    width: 40px;
-    height: 40px;
-    font-size: 1.1rem;
-  }
-}
- /*for 11 specially*/
-@media (max-width: 430px) {
-  .profile-image {
-    width: 100px;
-    height: 100px;
-  }
-
-}
-
