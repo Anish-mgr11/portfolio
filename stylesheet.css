@@ -473,11 +473,5 @@ body {
     height: 120px;
   }
 
-  .profile-container {
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-  }
 }
 
